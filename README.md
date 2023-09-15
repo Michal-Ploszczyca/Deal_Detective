@@ -1,5 +1,4 @@
 # Deal_Detective
-
 Deal Detective is an evolving project dedicated to tracking and analyzing smartphone prices from various online retailers. Currently, it focuses on the iPhone 14 series, but it's designed with adaptability in mind. As newer models like the iPhone 15 emerge, the project will transition to accommodate the latest in the market.
 
 **Current Capabilities:**
