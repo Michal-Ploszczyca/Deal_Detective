@@ -120,6 +120,6 @@ def main():
         print()
     input("please click enter to continue: ")
 
-print('coomit try')
+
 if __name__ == "__main__":
     main()
