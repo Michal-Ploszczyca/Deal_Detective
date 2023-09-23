@@ -25,7 +25,9 @@ WHERE name LIKE "Apple iPhone 14 Pro Max%"
 ORDER BY price ASC;
 
 ### Database View
-![Database View](screenshots/database_view.png)
+![Database View](./screenshots/database_view.png)
 
 ### Example Query
-![Example Query Result](screenshots/example_query.png)
+![Example Query Result](./screenshots/example_query.png)
+
+
