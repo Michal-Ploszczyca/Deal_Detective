@@ -15,7 +15,7 @@
 
 ## 🗃️ SQLite Database:
 
-Every scrape session populates the `smartphone.db` SQLite database. This allows for historic data storage and further SQL operations, from simple lookups to more intricate analytics. You can view and query this database using tools like DB Browser for SQLite or by using SQL capabilities within the PyCharm environment.
+Every scrape session populates the `smartphones.db` SQLite database. This allows for historic data storage and further SQL operations, from simple lookups to more intricate analytics. You can view and query this database using tools like DB Browser for SQLite or by using SQL capabilities within the PyCharm environment.
 
 ---
 
