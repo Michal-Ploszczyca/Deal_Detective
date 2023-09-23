@@ -7,6 +7,7 @@ from selenium.webdriver.common.service import Service
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.keys import Keys
 import time
+import sqlite3
 
 # Global lists to store smartphone names and prices
 smartphone_names = []
@@ -94,8 +95,29 @@ def get_data_mediamarkt(driver):
 
 
 
+def save_to_database(data):
+    """
+        Saves the smartphone data into an SQLite database.
 
-
+        Args:
+        - data: List of tuples with smartphone names and prices.
+        """
+    # Create a new database
+    conn = sqlite3.connect("smartphones.db")
+    cursor = conn.cursor()
+    cursor.execute('''
+            CREATE TABLE IF NOT EXISTS smartphones (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT NOT NULL,
+                price REAL NOT NULL
+            )
+        ''')
+    # Insert the data
+    for name, price in data:
+        cursor.execute("INSERT INTO smartphones (name, price) VALUES (?, ?)", (name, price))
+    # Commit the changes and close the connection
+    conn.commit()
+    conn.close()
 
 def main():
     """
@@ -111,15 +133,17 @@ def main():
     get_data_morele(driver)
     get_data_xcom(driver)
     get_data_mediamarkt(driver)
-    # print("Smartphone Names", smartphone_names)
-    # print("Smartphone Prices: ", smartphone_prices)
     smartphones_data = list(zip(smartphone_names, smartphone_prices))
     for item in smartphones_data:
         for j in item:
-            print(j ,end=' ')
+            print(j, end=' ')
         print()
+    save_to_database(smartphones_data) # Save the data to the SQLite database
     input("please click enter to continue: ")
 
 
 if __name__ == "__main__":
     main()
+
+
+
