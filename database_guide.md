@@ -10,7 +10,7 @@ This guide provides a step-by-step walkthrough of how to run queries on the SQLi
 ## Running Queries
 
 1. Open DB Browser for SQLite.
-2. Click on "Open Database" and select the `smartphone.db` file.
+2. Click on "Open Database" and select the `smartphones.db` file.
 3. Navigate to the "Execute SQL" tab.
 4. In the SQL text area, you can input your SQL queries.
 
