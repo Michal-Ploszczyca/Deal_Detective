@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Deal Detective: iPhone Price Scraper & Analyzer 📱
+![image](https://github.com/Michal-Ploszczyca/Deal_Detective/assets/102959128/c4841928-2ea0-4e26-a0e1-cee8d44d5550)# 🕵️‍♂️ Deal Detective: iPhone Price Scraper & Analyzer 📱
 
 **Deal Detective** is an intelligent Python-based scraper tool designed to sift through selected online retailers and capture the real-time pricing data for the iPhone 14 series. It then carefully archives this data in an SQLite database, laying the groundwork for insightful analytics, especially price trends and potential deals.
 
@@ -15,7 +15,7 @@
 
 ## 🗃️ SQLite Database:
 
-Every scrape session populates the `Iphone_database.db` SQLite database. This allows for historic data storage and further SQL operations, from simple lookups to more intricate analytics. You can view and query this database using tools like DB Browser for SQLite or by using SQL capabilities within the PyCharm environment.
+Every scrape session populates the `smartphone.db` SQLite database. This allows for historic data storage and further SQL operations, from simple lookups to more intricate analytics. You can view and query this database using tools like DB Browser for SQLite or by using SQL capabilities within the PyCharm environment.
 
 ---
 
