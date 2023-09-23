@@ -28,6 +28,7 @@ Every scrape session populates the `Iphone_database.db` SQLite database. This al
 2. **Dependencies:** 
     - You need to install required Python packages. Navigate to your script's directory in the terminal or command prompt and run: 
       ```
+      pip install selenium
       pip install selenium webdriver_manager
       ```
 
