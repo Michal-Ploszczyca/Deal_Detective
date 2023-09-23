@@ -15,7 +15,7 @@
 
 ## 🗃️ SQLite Database:
 
-Every scrape session populates the `Iphone_database.db` SQLite database. This allows for historic data storage and further SQL operations, from simple lookups to more intricate analytics. You can view and query this database using tools like DB Browser for SQLite or by using SQL capabilities within the PyCharm environment.
+Every scrape session populates the `smartphone.db` SQLite database. This allows for historic data storage and further SQL operations, from simple lookups to more intricate analytics. You can view and query this database using tools like DB Browser for SQLite or by using SQL capabilities within the PyCharm environment.
 
 ---
 
@@ -32,7 +32,7 @@ Every scrape session populates the `Iphone_database.db` SQLite database. This al
       ```
 
 3. **Database:** 
-    - The SQLite database (`Iphone_database.db`) will be created automatically when you run the script. No additional setup is needed.
+    - The SQLite database (`smartphones.db`) will be created automatically when you run the script. No additional setup is needed.
 
 ---
 
@@ -40,4 +40,4 @@ Every scrape session populates the `Iphone_database.db` SQLite database. This al
 
 1. Open your terminal or command prompt.
 2. Navigate to the directory containing the script.
-3. Run the script using:
+3. Run the script using: python main.py
