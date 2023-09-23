@@ -32,7 +32,7 @@ Every scrape session populates the `Iphone_database.db` SQLite database. This al
       ```
 
 3. **Database:** 
-    - The SQLite database (`Iphone_database.db`) will be created automatically when you run the script. No additional setup is needed.
+    - The SQLite database (`smartphones.db`) will be created automatically when you run the script. No additional setup is needed.
 
 ---
 
