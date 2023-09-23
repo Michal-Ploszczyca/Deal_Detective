@@ -25,8 +25,9 @@ WHERE name LIKE "Apple iPhone 14 Pro Max%"
 ORDER BY price ASC;
 
 ### Database View
-![Database View](https://github.com/Michal-Ploszczyca/Deal_Detective/blob/master/screenshots/database_view.png?raw=true)
+![alt text]([http://url/to/img.png](https://github.com/Michal-Ploszczyca/Deal_Detective/blob/master/screenshots/database_view.png))
 
+https://github.com/Michal-Ploszczyca/Deal_Detective/blob/master/screenshots/database_view.png
 ### Example Query
 ![Example Query Result](https://github.com/Michal-Ploszczyca/Deal_Detective/blob/master/screenshots/example_query.png?raw=true)
 
