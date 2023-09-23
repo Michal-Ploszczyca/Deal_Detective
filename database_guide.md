@@ -24,8 +24,9 @@ FROM smartphones
 WHERE name LIKE "Apple iPhone 14 Pro Max%"
 ORDER BY price ASC;
 
- Database View
-![alt text]([http://url/to/img.png](https://github.com/Michal-Ploszczyca/Deal_Detective/blob/master/screenshots/database_view.png))
+### Database View
+![Database View](https://github.com/Michal-Ploszczyca/Deal_Detective/raw/master/screenshots/database_view.png)
+
 
 https://github.com/Michal-Ploszczyca/Deal_Detective/blob/master/screenshots/database_view.png
 ### Example Query
