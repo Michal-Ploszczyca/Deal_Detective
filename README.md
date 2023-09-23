@@ -41,4 +41,4 @@ Every scrape session populates the `Iphone_database.db` SQLite database. This al
 
 1. Open your terminal or command prompt.
 2. Navigate to the directory containing the script.
-3. Run the script using:
+3. Run the script using: python main.py
