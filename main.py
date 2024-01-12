@@ -33,7 +33,7 @@ def get_data_morele(driver):
         Args:
         - driver: Selenium WebDriver instance.
     """
-    open_in_new_tab(driver,"https://www.morele.net/wyszukiwarka/0/0/,9397.00,,,,,,,0,,,,/1/?q=iphone%2014")
+    open_in_new_tab(driver,"https://www.morele.net/wyszukiwarka/?q=Iphone+14&d=0")
     name_elements = driver.find_elements(By.XPATH, "//a[@class='productLink']")
     # Extract names
     for element in name_elements:
@@ -139,7 +139,8 @@ def main():
             print(j, end=' ')
         print()
     save_to_database(smartphones_data) # Save the data to the SQLite database
-    input("please click enter to continue: ")
+    # input("please click enter to continue: ")
+    driver.quit()
 
 
 if __name__ == "__main__":
